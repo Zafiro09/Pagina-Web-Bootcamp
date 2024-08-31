@@ -1,0 +1,49 @@
+*{
+    margin: 10px 10px 10px 10px;
+    
+}
+body{
+    border-radius: 5px;
+    border-color: rgb(207, 207, 207);
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.barra{
+    background-color: rgb(62, 97, 59);
+    position: relative;
+    height: 120px;
+}
+.barra img{
+    position: absolute;
+    z-index: 10;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 100px;
+    font-style: italic;
+    font-weight: 50;
+    padding-bottom: 30px;
+
+}
+ h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px;
+    color: rgb(104, 103, 103);
+ }
+
+ h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(104, 103, 103);
+ }
+ button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: rgb(210, 216, 223);
+    border-radius: 5px;
+    border: 0;
+    padding: 8px 5px;
+ }

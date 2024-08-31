@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Rregistro</title>
+</head>
+<body>
+    <fieldset>
+        
+        <legend><strong>Regístrate y únete a la comunidad SheCeo</strong></legend>
+        <div>
+        <label for="Nombre">Nombre:</label>
+        <input type="text" id="Nombre:">
+        </div>
+
+        <div>
+            <label for="Apellido">Apellido:</label>
+            <input type="text" id="Apellido">
+        </div>
+
+        <div>
+            <label for="Correo Electronico">Correo Electronico:</label>
+            <input type="text" id="Correo Electronico">
+        </div>
+
+        <div>
+            <label for="Contraseña:">Contraseña:</label>
+            <input type="password" id="Contraseña:">
+        </div>
+
+        <div>
+            <label for="Confirma Contraseña:">Confirmar Contraseña:</label>
+            <input type="password" id="Confirmar Contraseña:">
+        </div>
+        <div>
+            <label for="fecha_nacimiento">Fecha de nacimiento: </label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" />
+        </div>
+
+        <div>
+            <label>Género:</label>
+            <input type="radio" id="Masculino">
+            <label for="Masculino">Masculino</label>
+            <input type="radio" id="Femenino">
+            <label for="Femenino">Femenino</label>
+            <input type="radio" id="Prefiero no decirlo">
+            <label for="Prefiero no decirlo">Prefiero no decirlo</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="Si quiero" name="Si quiero" />
+            <label for="Si quiero">Deseo noticias y novedades del sitio SheCeo</label>
+        </div>
+
+        <div>
+            <label for="sector"> Sector Ceo: </label>
+            <select id="sector">
+                <option value="-1"> Selecciona un sector </option>
+                <option value="CH"> Marketing </option>
+                <option value="PE"> Finanzas </option>
+                <option value="MX"> R.R.H.H </option>
+                <option value="CR"> Logística </option>
+            </select>
+        </div>
+
+        <div>
+            <label for="comentario">Comentario: </label>
+            <textarea id="comentario" name="comentario" rows="4" cols="30"></textarea>
+        </div>
+        <input type="submit" value="Registrarse" />
+       
+    </fieldset>
+    
+</body>
+</html>

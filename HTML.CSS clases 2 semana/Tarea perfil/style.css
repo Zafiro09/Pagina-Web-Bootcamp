@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #424141;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+
+}
+.cuerpo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    display: flex;
+    border-radius: 15px;
+    border-color: rgb(112, 107, 100);
+    align-items: flex-start;
+    width: 400px;
+    height: 50px
+    
+}
+
+.izquierda{
+    text-decoration: none;
+    padding-top: 7px;
+}
+
+.derecha a{
+    text-decoration: none;
+    margin: 0 10px;
+}
+.Editar Perfil{
+    size: 7px;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    
+}
+h3{
+    padding: 15px;
+}
+h4{
+    padding: 15px;
+}
+.especial{
+    font-size: 15px;
+    color: white;
+    background-color: rgb(74, 165, 165);
+    padding: 7px;
+    border-radius: 5px;
+    border: 0;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.solicitudes{
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    border-color: rgb(61, 117, 190);
+}
+.acceso{
+    border-radius: none;
+    width: 60px;
+    height: 40px;
+}
+
+.FotoPerfil{
+    position: absolute;
+    z-index: 10;
+}
+
+.barra{
+    border-radius: 15px;
+    border-color: #424141;
+    padding: 15px;
+}
+.cuerpo{
+    margin: 10px 35px 15px 15px ;
+}
+
+.configuracióntexto{
+    color: rgb(17, 99, 99);
+}

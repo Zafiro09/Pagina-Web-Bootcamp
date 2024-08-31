@@ -1,0 +1,55 @@
+
+body{
+    margin:0;
+    background-color: white;
+}
+.diferente{
+    font-style: italic;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.primero{
+    background-color: rgb(75, 109, 68);
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 0; 
+    
+}
+
+.segundo{
+    background-color: rgb(109, 138, 93);
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 0;
+}
+
+.tercero{
+    background-color: rgb(123, 170, 150);
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 0;
+}
+
+footer{
+    background-color: rgb(137, 190, 173);
+    border: 5px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    padding-top: 10px;
+    font-size: 15px;
+}
