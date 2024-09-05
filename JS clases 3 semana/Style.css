@@ -1,6 +1,6 @@
 *{
     margin: 0 0 0 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /* menu*/nav{
     display: flex;
@@ -8,12 +8,36 @@
     align-items: center;
     justify-content: space-between;
     background-color: rgb(214, 216, 212);
-    width: 70%;
+    width: 90%;
     height: 70px;
-    margin: 0px 40px 0px 70px;
+    margin: 0px 40px 0px 50px;
     padding: 10px;
 }
 .boton{
+    padding: 10px 15px;
+    background-color: rgb(68, 180, 224);
+    color: white;
+    border: none;
+}
+input{
+    width: 60%;
+    padding: 5px 0;
+}
+.sus{
+    font-style: italic;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.parrafo{
+    padding-bottom: 10px;
+}
+.plural{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.btn{
+    background-color: rgb(250, 250, 132);
+    border-radius: 5px;
     padding: 5px;
 }
 .main{
@@ -24,25 +48,44 @@
 }
 
 .primeracolumna{
-    width: auto;
+    width: 900px;
+    margin-right: 395px;
 }
 
 .segundacolumna{
-    margin-right: -100px;
+    margin-right: 500px;
+    margin-top: 19px;
+    margin-left: 300px;
 }
 
 .primercontenedor{
-    border: 3px solid black;
-    width: 60%;
+    border: 1px solid black;
+    width: 500%;
     margin-top: 20px;
     padding: 15px;
 }
 .segundocontenedor{
-    border: 3px solid black;
-    width: 60%;
+    border: 1px solid black;
+    width: 500%;
     margin-top: 20px;
     padding: 15px;
 }
 .petlopedia{
-    border: 3px solid black;
+    border: 1px solid black;
+    width: 370px;
+    height: 50px;
+    padding: 10px;
 }
+.agregardefinicion{
+    background-color: rgb(24, 146, 75);
+    color: white;
+    width: 200px;
+    border: none;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h2{
+    padding: 10px 5px;
+}
+
