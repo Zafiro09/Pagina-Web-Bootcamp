@@ -1,9 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
-
-
 nav{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #424141;
@@ -12,7 +11,44 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 20px 10px;
-
+}
+.main{
+    display: flex;
+    flex-direction:row;
+    margin: 10px;
+    padding-right: 20px;
+}
+.barrita{
+    background-color: rgb(79, 160, 133);
+    height: 70px;
+    border-radius: 10px 10px 0 0;
+}
+.containeruno {
+    background-color: rgb(247, 250, 252);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 2px rgb(173, 173, 173);
+    height: 420px;
+}
+.containerdos{
+    background-color: rgb(247, 250, 252);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 2px rgb(175, 175, 175);
+    margin-top: 15px;
+}
+.primeracolumna{
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    margin-right: 40px;
+    margin-left: 10px;
+}
+.segundacolumna{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: flex-start;
+    padding-left: 30px;
+    margin-left: 15px;
 }
 .cuerpo{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -25,31 +61,51 @@ nav{
     height: 50px
     
 }
-
 .izquierda{
     text-decoration: none;
     padding-top: 7px;
+    display: flex;
+    
 }
-
-.derecha a{
+.derecha{
     text-decoration: none;
     margin: 0 10px;
+    display: flex;
+    gap: 15px;
 }
 .Editar Perfil{
     size: 7px;
 }
-
-h1{
+.containeruno h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(255, 255, 255);
-    padding: 15px;
+    font-size: 30px ;
+    color: black;
+    padding-top: 90px;
     
 }
-h3{
-    padding: 15px;
+.containerdos{
+    height: 110px;
+    padding-bottom: 10px;
+    padding-left: 5px;
 }
-h4{
-    padding: 15px;
+.segundacolumna h1{
+    font-size: 30px;
+}
+h3{
+    padding: 15px 15px 15px 5px;
+}
+h5{
+    padding: 7px 15px 7px 5px;
+}
+h2{
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.a{
+    display: flex;
+    justify-content: start;
+    align-content: center;
+
 }
 .especial{
     font-size: 15px;
@@ -60,16 +116,28 @@ h4{
     border: 0;
 }
 
-img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}
-.solicitudes{
+
+.Solicitudes{
     border-radius: 10px;
-    width: 40px;
-    height: 40px;
+    width: auto;
+    height: auto;
     border-color: rgb(61, 117, 190);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px 2px rgb(175, 175, 175);
+    padding-left: 5px;
+    padding-top: 20px;
+}
+.textito{
+    display: flex;
+    align-items: center;
+}
+.fotoderecha{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid  rgb(79, 160, 133);
 }
 .acceso{
     border-radius: none;
@@ -77,20 +145,54 @@ img{
     height: 40px;
 }
 
-.FotoPerfil{
-    position: absolute;
+.fotoprincipal{
+    border-radius: 100%;
+    position: relative;
     z-index: 10;
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    margin-top: 10px
 }
-
-.barra{
-    border-radius: 15px;
-    border-color: #424141;
-    padding: 15px;
+li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.cuerpo{
-    margin: 10px 35px 15px 15px ;
+.abajo{
+    box-shadow: 7px 7px 5px 2px rgb(175, 175, 175);
+    border-radius: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+h1{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.fotito{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    z-index: 10;
+    border: 1px black solid;
+}
+.check{
+    border-radius: none;
+    border-bottom: none;
+    width: 70px;
+    height: 30px;
 }
 
 .configuracióntexto{
     color: rgb(17, 99, 99);
+}
+.tuerca{
+    width: 20px;
+    height: 20px;
 }
