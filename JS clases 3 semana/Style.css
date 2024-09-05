@@ -1,0 +1,48 @@
+*{
+    margin: 0 0 0 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* menu*/nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(214, 216, 212);
+    width: 70%;
+    height: 70px;
+    margin: 0px 40px 0px 70px;
+    padding: 10px;
+}
+.boton{
+    padding: 5px;
+}
+.main{
+    margin: 20px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.primeracolumna{
+    width: auto;
+}
+
+.segundacolumna{
+    margin-right: -100px;
+}
+
+.primercontenedor{
+    border: 3px solid black;
+    width: 60%;
+    margin-top: 20px;
+    padding: 15px;
+}
+.segundocontenedor{
+    border: 3px solid black;
+    width: 60%;
+    margin-top: 20px;
+    padding: 15px;
+}
+.petlopedia{
+    border: 3px solid black;
+}
