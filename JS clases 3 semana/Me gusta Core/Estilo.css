@@ -41,14 +41,13 @@ nav{
 
 .contenedordos{
     margin-left: 50px;
-
 }
 h1{
     padding-bottom: 20px;
 }
 
-.primero{
-    border: 5px solid grey;
+.primero, .segundo, .tercero{
+    border: 3px solid grey;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
     width: 175%;
@@ -56,50 +55,33 @@ h1{
     padding: 10px;
     display: flex;
     flex-direction: row;
-}
-.segundo{
-    border: 5px solid grey;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255);
-    width: 175%;
-    margin-bottom: 20px;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-}
-.tercero{
-    border: 5px solid rgb(155, 155, 155);
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255);
-    width: 175%;
-    margin-bottom: 20px;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
+    background-color: aliceblue;
+    justify-content: space-between;
 }
 .izquierda{
-    display: flex;
-    flex-direction: column;
     gap: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 .derecha{
-    display:flex;
-    flex-direction: column;
     justify-content: flex-start;
     padding-top: 10px;
-    
-    
 }
 .diferente{
     color: blue;
     text-decoration: underline;
 }
+.primero .derecha, .segundo .derecha, .tercero .derecha{
+    display: flex;
+    align-items: center;
 
-#btn{
-    background-color: rgb(235, 235, 20);
+}
+
+.boton{
+    background-color: rgb(238, 241, 11);
     border-radius: 2px;
-    padding: 6px;
+    padding: 8px 15px;
     border: none;
+    margin-left: 10px;
+    
 }
